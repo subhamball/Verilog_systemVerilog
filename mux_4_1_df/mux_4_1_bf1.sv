@@ -2,7 +2,7 @@
 module mux_4_1_bf(Y,I,S);
   input [3:0] I;
   input [1:0] S;
-  output Y;
+  output reg Y;
   
   always @(*)
     begin
